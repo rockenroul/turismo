@@ -1,0 +1,202 @@
+body{
+    background-color: bisque;
+}
+
+.header{
+    background-color: rgb(228, 224, 35);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    position: absolute;
+    height: 120px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-size-adjust: auto;
+    font-family: impact;
+}
+
+table{
+    position: relative;
+    color: white;
+    width: 100%;
+    top:110px;
+    background-color: rgb(124, 0, 0);
+}
+
+table a{
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    z-index: 5;
+  }
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+ 
+.dropbtn img{
+    width: 80px;
+    height: 80px;
+}  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover{
+    background-color: rgb(155, 155, 155); 
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .turismo{
+    width: 50px;
+    height: 50px;
+}
+
+.gastronomia{
+    width: 50px;
+    height: 50px;
+}
+
+.hotel{
+        width: 50px;
+        height: 50px;
+}
+
+
+.img{
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.cards{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card1{
+    background: transparent;
+}
+
+.card1{
+    position:relative;
+    width: 45%;
+    height: 400px;
+    border-radius: 8px;
+    transition: all 0.3s ease-out;
+    opacity: 0.6;
+    border-radius: 10%;
+    border-color: black;
+}
+
+.card1:hover{
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.item3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.item3{
+    position: static;
+    color: white;
+    z-index: 6;
+}
+
+.item3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.item1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    color: white;
+    left: 10%;
+    top: 33%;
+    font-size: 100px;
+    font-style: italic;
+
+}
+
+.item1pizza{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    color: white;
+    left: 20%;
+    top: 33%;
+    font-size: 100px;
+    font-style: italic;
+    
+}
+
+
+.rodape{
+    left: 0%;
+    top: 85%;
+    position: absolute;
+    background-color: rgb(124, 0, 0);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .romarodape{
+    left: 0%;
+    top: 80%;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
